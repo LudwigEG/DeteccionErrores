@@ -97,7 +97,7 @@ namespace DeteccionErrores
 
             if (fecha.fechaCorrecta())
             {
-                Console.WriteLine("Fecha introducida: " + fecha.toString());
+                Console.WriteLine("Fecha introducida: " + fecha.toString()); // se utiliza el método de clase fecha en minúsculas
                 fecha.diaSiguiente();
                 Console.WriteLine("El día siguiente es: " + fecha.toString());
             }

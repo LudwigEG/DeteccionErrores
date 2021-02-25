@@ -32,6 +32,9 @@ namespace DeteccionErrores
                         diaCorrecto = dia >= 1 & dia <= 28;
                     }
                     break;
+                case 4: // meses con 30 días
+                case 6:
+                case 9:
                 case 11:
                     diaCorrecto = dia >= 1 & dia <= 30;
                     break;
